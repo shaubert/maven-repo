@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.shaubert</groupId>
+  <artifactId>proto-mapper-wire-processor</artifactId>
+  <versioning>
+    <versions>
+      <version>1.3-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20150309090806</lastUpdated>
+  </versioning>
+</metadata>

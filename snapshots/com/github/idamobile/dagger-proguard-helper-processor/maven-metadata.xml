@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.idamobile</groupId>
+  <artifactId>dagger-proguard-helper-processor</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20150309091020</lastUpdated>
+  </versioning>
+</metadata>
