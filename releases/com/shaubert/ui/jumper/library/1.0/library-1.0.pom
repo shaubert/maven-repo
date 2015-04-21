@@ -2,11 +2,11 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.shaubert.navigation</groupId>
+  <groupId>com.shaubert.ui.jumper</groupId>
   <artifactId>library</artifactId>
   <version>1.0</version>
   <packaging>aar</packaging>
-  <name>Navigation Library</name>
+  <name>Jumper Library</name>
   <description>Simplify intent creation, passing extras, activity animations and provides abstraction over screen flow.</description>
   <url>https://github.com/shaubert/navigation</url>
   <licenses>
