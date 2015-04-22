@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.shaubert.android-process-button</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0.9-SNAPSHOT</version>
+  <versioning>
+    <versions>
+      <version>1.0.9-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20150422184540</lastUpdated>
+  </versioning>
+</metadata>
