@@ -2,13 +2,12 @@
 <metadata>
   <groupId>com.shaubert.ui.jumper</groupId>
   <artifactId>library</artifactId>
-  <version>1.0.4-SNAPSHOT</version>
+  <version>1.0.4.003-SNAPSHOT</version>
   <versioning>
-    <versions>
-      <version>1.0.4-SNAPSHOT</version>
-      <version>1.0.4.002-SNAPSHOT</version>
-      <version>1.0.4.003-SNAPSHOT</version>
-    </versions>
+    <snapshot>
+      <timestamp>20150504.103427</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
     <lastUpdated>20150504103427</lastUpdated>
   </versioning>
 </metadata>
