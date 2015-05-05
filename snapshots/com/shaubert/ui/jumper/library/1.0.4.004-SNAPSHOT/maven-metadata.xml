@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.shaubert.ui.jumper</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0.4.004-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20150505.105657</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20150505105657</lastUpdated>
+  </versioning>
+</metadata>
