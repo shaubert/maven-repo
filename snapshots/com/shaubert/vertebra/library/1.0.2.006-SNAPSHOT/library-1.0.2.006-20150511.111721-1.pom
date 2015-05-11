@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.shaubert.vertebra</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0.2.006-SNAPSHOT</version>
+  <packaging>aar</packaging>
+  <name>Vertebra Library</name>
+  <description>Connects request service, data cache and eventbus.</description>
+  <url>https://github.com/shaubert/service-cache-and-bus</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>shaubert</id>
+      <name>Alexander Shaubert</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:shaubert/service-cache-and-bus.git</connection>
+    <developerConnection>scm:git@github.com:shaubert/service-cache-and-bus.git</developerConnection>
+    <url>https://github.com/shaubert/service-cache-and-bus</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>com.shaubert.cache</groupId>
+      <artifactId>library</artifactId>
+      <version>1.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.shaubert.lifecycle.objects</groupId>
+      <artifactId>library</artifactId>
+      <version>1.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.shaubert.network.service</groupId>
+      <artifactId>library</artifactId>
+      <version>1.0.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>de.greenrobot</groupId>
+      <artifactId>eventbus</artifactId>
+      <version>2.4.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
