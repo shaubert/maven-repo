@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.shaubert.ui.adapters</groupId>
+  <artifactId>library</artifactId>
+  <version>1.0.6.006-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20150615.164426</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20150615164426</lastUpdated>
+  </versioning>
+</metadata>
