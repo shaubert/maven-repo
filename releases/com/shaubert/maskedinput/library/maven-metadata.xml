@@ -3,13 +3,14 @@
   <groupId>com.shaubert.maskedinput</groupId>
   <artifactId>library</artifactId>
   <versioning>
-    <release>1.2.1</release>
+    <release>1.2.2</release>
     <versions>
       <version>1.1</version>
       <version>1.1.1</version>
       <version>1.2</version>
       <version>1.2.1</version>
+      <version>1.2.2</version>
     </versions>
-    <lastUpdated>20160209162409</lastUpdated>
+    <lastUpdated>20160209165601</lastUpdated>
   </versioning>
 </metadata>
