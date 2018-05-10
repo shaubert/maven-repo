@@ -3,7 +3,7 @@
   <groupId>com.shaubert.ui.imagepicker</groupId>
   <artifactId>library</artifactId>
   <versioning>
-    <release>0.2.8</release>
+    <release>0.2.9</release>
     <versions>
       <version>0.1</version>
       <version>0.1.1</version>
@@ -28,7 +28,8 @@
       <version>0.2.6</version>
       <version>0.2.7</version>
       <version>0.2.8</version>
+      <version>0.2.9</version>
     </versions>
-    <lastUpdated>20180426112945</lastUpdated>
+    <lastUpdated>20180510115637</lastUpdated>
   </versioning>
 </metadata>
