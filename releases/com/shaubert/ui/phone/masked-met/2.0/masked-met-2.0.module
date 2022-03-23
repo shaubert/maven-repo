@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.shaubert.ui.phone",
+    "module": "masked-met",
+    "version": "2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.shaubert.ui.phone",
+          "module": "masked",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "masked-met-2.0.aar",
+          "url": "masked-met-2.0.aar",
+          "size": 20761,
+          "sha512": "84700d01f421bfb0ce53dc41fb3008476a46a74216f94daf6b2cb68b2f1c916ab6dac8da4dca59b5fa1e0df80719ea50f7ab0e8cbec5ace530f89ad9db17cd2d",
+          "sha256": "f81a8392c6d874d4a59dccad9ba3ee0aebeb4063d9ea0a2aabb8e645d78c8604",
+          "sha1": "020f2ae5507fbf0559194101c4504519aea2adfd",
+          "md5": "5e67d27003f267d477d2a4420d30cde9"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.shaubert.maskedinput",
+          "module": "met-extension",
+          "version": {
+            "requires": "1.3"
+          }
+        },
+        {
+          "group": "com.shaubert.ui.phone",
+          "module": "masked",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "masked-met-2.0.aar",
+          "url": "masked-met-2.0.aar",
+          "size": 20761,
+          "sha512": "84700d01f421bfb0ce53dc41fb3008476a46a74216f94daf6b2cb68b2f1c916ab6dac8da4dca59b5fa1e0df80719ea50f7ab0e8cbec5ace530f89ad9db17cd2d",
+          "sha256": "f81a8392c6d874d4a59dccad9ba3ee0aebeb4063d9ea0a2aabb8e645d78c8604",
+          "sha1": "020f2ae5507fbf0559194101c4504519aea2adfd",
+          "md5": "5e67d27003f267d477d2a4420d30cde9"
+        }
+      ]
+    }
+  ]
+}

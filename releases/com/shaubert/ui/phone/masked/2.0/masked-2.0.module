@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.shaubert.ui.phone",
+    "module": "masked",
+    "version": "2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.shaubert.ui.phone",
+          "module": "library",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "masked-2.0.aar",
+          "url": "masked-2.0.aar",
+          "size": 17322,
+          "sha512": "1252dd012ce9d3757ee5a9a6451748cbe9e614330738c0513df4defba7bd6fc38871322a59e0253f71e28b2dc0a27c33c99b8d194ca05318c10a4f3c29fb03cc",
+          "sha256": "f66903f63e4291c024a5d774abff42282e406946f74f7e740e9cd286571d693e",
+          "sha1": "d11b7209c4c1f12c1b85a4f07014f358b85e2d47",
+          "md5": "a1c09bd157d6a171e3cf856257ba6b73"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.shaubert.maskedinput",
+          "module": "library",
+          "version": {
+            "requires": "1.3"
+          }
+        },
+        {
+          "group": "com.shaubert.ui.phone",
+          "module": "library",
+          "version": {
+            "requires": "2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "masked-2.0.aar",
+          "url": "masked-2.0.aar",
+          "size": 17322,
+          "sha512": "1252dd012ce9d3757ee5a9a6451748cbe9e614330738c0513df4defba7bd6fc38871322a59e0253f71e28b2dc0a27c33c99b8d194ca05318c10a4f3c29fb03cc",
+          "sha256": "f66903f63e4291c024a5d774abff42282e406946f74f7e740e9cd286571d693e",
+          "sha1": "d11b7209c4c1f12c1b85a4f07014f358b85e2d47",
+          "md5": "a1c09bd157d6a171e3cf856257ba6b73"
+        }
+      ]
+    }
+  ]
+}
