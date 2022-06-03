@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.shaubert.ui.jumper",
+    "module": "library",
+    "version": "1.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "library-1.5.aar",
+          "url": "library-1.5.aar",
+          "size": 30915,
+          "sha512": "2d7fe3220cfde95b491e14d27808f4729afc310b52eceb939f564fbd61c7b48ed7dd8e56b41c2cdb3c5735a68c39ca0d7d0b1006b8ef03cd74b4d5556d0eda36",
+          "sha256": "f9bec662bcd968702d1cb1dec58151d812bc7aa3ef6a9ce791cf84c3c7be3d5d",
+          "sha1": "96976fc0e1a9974bb5a3c5db965167f79d5dd440",
+          "md5": "362ebafbb2499469d29c745c5944cbd2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "com.shaubert.lifecycle.objects",
+          "module": "library",
+          "version": {
+            "requires": "1.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library-1.5.aar",
+          "url": "library-1.5.aar",
+          "size": 30915,
+          "sha512": "2d7fe3220cfde95b491e14d27808f4729afc310b52eceb939f564fbd61c7b48ed7dd8e56b41c2cdb3c5735a68c39ca0d7d0b1006b8ef03cd74b4d5556d0eda36",
+          "sha256": "f9bec662bcd968702d1cb1dec58151d812bc7aa3ef6a9ce791cf84c3c7be3d5d",
+          "sha1": "96976fc0e1a9974bb5a3c5db965167f79d5dd440",
+          "md5": "362ebafbb2499469d29c745c5944cbd2"
+        }
+      ]
+    }
+  ]
+}
