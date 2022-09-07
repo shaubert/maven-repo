@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.shaubert.ui.imagepicker",
+    "module": "glide-ext",
+    "version": "0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.shaubert.ui.imagepicker",
+          "module": "library",
+          "version": {
+            "requires": "0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "glide-ext-0.6.aar",
+          "url": "glide-ext-0.6.aar",
+          "size": 18655,
+          "sha512": "cc62a170075da58339733bd484e63d762db5730891600c2bacbdd09b54f4aec6ec28dd9fa9de3edda3d4f90fd86c505833fde7f5fbb7038c4884d29e322ea52f",
+          "sha256": "e1d710044ec6377211e21c10dfe660c7499d9327a7dbe857671a4d3a25d63131",
+          "sha1": "b87a3f1306473f804cbdb83bd41f7e8f67b737e1",
+          "md5": "2ce4be3b94a1ceb373687697e1024c92"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.shaubert.ui.imagepicker",
+          "module": "library",
+          "version": {
+            "requires": "0.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "glide-ext-0.6.aar",
+          "url": "glide-ext-0.6.aar",
+          "size": 18655,
+          "sha512": "cc62a170075da58339733bd484e63d762db5730891600c2bacbdd09b54f4aec6ec28dd9fa9de3edda3d4f90fd86c505833fde7f5fbb7038c4884d29e322ea52f",
+          "sha256": "e1d710044ec6377211e21c10dfe660c7499d9327a7dbe857671a4d3a25d63131",
+          "sha1": "b87a3f1306473f804cbdb83bd41f7e8f67b737e1",
+          "md5": "2ce4be3b94a1ceb373687697e1024c92"
+        }
+      ]
+    }
+  ]
+}

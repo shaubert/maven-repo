@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.shaubert.ui.imagepicker",
+    "module": "library",
+    "version": "0.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.shaubert.lifecycle.objects",
+          "module": "library",
+          "version": {
+            "requires": "1.5"
+          }
+        },
+        {
+          "group": "com.shaubert.m.permission",
+          "module": "library",
+          "version": {
+            "requires": "1.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library-0.6.aar",
+          "url": "library-0.6.aar",
+          "size": 102709,
+          "sha512": "85c02dda585064d6f8a635eb9683d96962426aaac8e2641fd35eed8486f0890502a3ca613a3750daf4e3cb40326ff2bb3c4a495630c838442db53573a444f68c",
+          "sha256": "7ff33ca0a16893ac8cdf2786e7286bed0f4e6c64a8dc11b717249d895916c555",
+          "sha1": "59f3856c09eaac0f0fadd66c555a1e1c0e5e14b9",
+          "md5": "ba8345b6635e6748671211de468ddb4f"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.shaubert.ui.dialogs",
+          "module": "library",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.github.chrisbanes",
+          "module": "PhotoView",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "com.shaubert.edmodo.cropper.fork",
+          "module": "library",
+          "version": {
+            "requires": "1.0.6"
+          }
+        },
+        {
+          "group": "com.shaubert.lifecycle.objects",
+          "module": "library",
+          "version": {
+            "requires": "1.5"
+          }
+        },
+        {
+          "group": "com.shaubert.m.permission",
+          "module": "library",
+          "version": {
+            "requires": "1.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library-0.6.aar",
+          "url": "library-0.6.aar",
+          "size": 102709,
+          "sha512": "85c02dda585064d6f8a635eb9683d96962426aaac8e2641fd35eed8486f0890502a3ca613a3750daf4e3cb40326ff2bb3c4a495630c838442db53573a444f68c",
+          "sha256": "7ff33ca0a16893ac8cdf2786e7286bed0f4e6c64a8dc11b717249d895916c555",
+          "sha1": "59f3856c09eaac0f0fadd66c555a1e1c0e5e14b9",
+          "md5": "ba8345b6635e6748671211de468ddb4f"
+        }
+      ]
+    }
+  ]
+}
