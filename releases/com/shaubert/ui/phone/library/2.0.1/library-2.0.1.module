@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.shaubert.ui.phone",
+    "module": "library",
+    "version": "2.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.googlecode.libphonenumber",
+          "module": "libphonenumber",
+          "version": {
+            "requires": "8.12.45"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library-2.0.1.aar",
+          "url": "library-2.0.1.aar",
+          "size": 81159,
+          "sha512": "7b15c52c1006dd88a2fc3185f785a77dce797200d80c37245adf14511d07547a2ad8692d2f9a1f4e76c81e29d0fd7764131d9771104a67d21a5e91fca189cfb8",
+          "sha256": "a2a1005f63efffcc21d22c34605258f797f1223538509f2e7c2b61ef463169b1",
+          "sha1": "835f92c087fe5bb9cbaaaeb9a3a0c99426db87e4",
+          "md5": "4c7cf9f1ae54fed39a7589a2acab83a9"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.legacy",
+          "module": "legacy-support-v4",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "com.googlecode.libphonenumber",
+          "module": "libphonenumber",
+          "version": {
+            "requires": "8.12.45"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library-2.0.1.aar",
+          "url": "library-2.0.1.aar",
+          "size": 81159,
+          "sha512": "7b15c52c1006dd88a2fc3185f785a77dce797200d80c37245adf14511d07547a2ad8692d2f9a1f4e76c81e29d0fd7764131d9771104a67d21a5e91fca189cfb8",
+          "sha256": "a2a1005f63efffcc21d22c34605258f797f1223538509f2e7c2b61ef463169b1",
+          "sha1": "835f92c087fe5bb9cbaaaeb9a3a0c99426db87e4",
+          "md5": "4c7cf9f1ae54fed39a7589a2acab83a9"
+        }
+      ]
+    }
+  ]
+}
