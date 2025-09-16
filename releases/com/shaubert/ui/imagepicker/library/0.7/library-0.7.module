@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.shaubert.ui.imagepicker",
+    "module": "library",
+    "version": "0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.shaubert.lifecycle.objects",
+          "module": "library",
+          "version": {
+            "requires": "1.5"
+          }
+        },
+        {
+          "group": "com.shaubert.m.permission",
+          "module": "library",
+          "version": {
+            "requires": "1.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library-0.7.aar",
+          "url": "library-0.7.aar",
+          "size": 90848,
+          "sha512": "26c459036de74c3b382ad14d06c0987d70a3c1ca486822c9a1c6d4db9d79fdfcedfc70b1349317a44195fd3ab3595289468b676d391553d747e70827bb337c00",
+          "sha256": "142e13f353ab25a630509d09f9f6c1ff83c2a90ad906f52e0ab2fcdbe65458c4",
+          "sha1": "bb1ec058abc7672bbe01dd777b260b2bdc2e2843",
+          "md5": "a9a47bc43811b87645eac393048c38b3"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.shaubert.ui.dialogs",
+          "module": "library",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.8.9"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.17.0"
+          }
+        },
+        {
+          "group": "com.github.chrisbanes",
+          "module": "PhotoView",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "com.shaubert.edmodo.cropper.fork",
+          "module": "library",
+          "version": {
+            "requires": "1.0.6"
+          }
+        },
+        {
+          "group": "com.shaubert.lifecycle.objects",
+          "module": "library",
+          "version": {
+            "requires": "1.5"
+          }
+        },
+        {
+          "group": "com.shaubert.m.permission",
+          "module": "library",
+          "version": {
+            "requires": "1.1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "library-0.7.aar",
+          "url": "library-0.7.aar",
+          "size": 90848,
+          "sha512": "26c459036de74c3b382ad14d06c0987d70a3c1ca486822c9a1c6d4db9d79fdfcedfc70b1349317a44195fd3ab3595289468b676d391553d747e70827bb337c00",
+          "sha256": "142e13f353ab25a630509d09f9f6c1ff83c2a90ad906f52e0ab2fcdbe65458c4",
+          "sha1": "bb1ec058abc7672bbe01dd777b260b2bdc2e2843",
+          "md5": "a9a47bc43811b87645eac393048c38b3"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "library-0.7-sources.jar",
+          "url": "library-0.7-sources.jar",
+          "size": 32971,
+          "sha512": "bf91a3dfd9591fd42c3dfdf008ff6d7f54f448e34037c7a3bc63093834e9261e68a74883edfaf72b7517cd4f82e6204638c09dd79d3e8d593ab3bdc25eda7691",
+          "sha256": "876e66c7d6e9d955e27826008080445e7476c58dde41a480539ba17dd9552066",
+          "sha1": "e322711754416ca121e07b16b655343b2f6434a0",
+          "md5": "73c6fce4154be7240c8628716e0e70af"
+        }
+      ]
+    }
+  ]
+}

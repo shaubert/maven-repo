@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.shaubert.ui.imagepicker",
+    "module": "glide-ext",
+    "version": "0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.15.1"
+          }
+        },
+        {
+          "group": "com.shaubert.ui.imagepicker",
+          "module": "library",
+          "version": {
+            "requires": "0.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "glide-ext-0.7.aar",
+          "url": "glide-ext-0.7.aar",
+          "size": 5341,
+          "sha512": "b57ae9dc4e059f7a3e8132adf7add9d4c640df3480096ec342cedb054f5a5fe234acc6208849b8304b8a3f5bad7bd872d917d998c05a0ea5053fcf4b3ee5d15d",
+          "sha256": "73a9a4c761d3a5dd6c25f6a6cc18a6ae884bfaa97cf0d5acaf81000b2d09f64a",
+          "sha1": "65a2fc8bb7b7d10919b9cc82cd56e82a75fac427",
+          "md5": "061bb12f4e13408b5933684779920fda"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.8.9"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.15.1"
+          }
+        },
+        {
+          "group": "com.shaubert.ui.imagepicker",
+          "module": "library",
+          "version": {
+            "requires": "0.7"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "glide-ext-0.7.aar",
+          "url": "glide-ext-0.7.aar",
+          "size": 5341,
+          "sha512": "b57ae9dc4e059f7a3e8132adf7add9d4c640df3480096ec342cedb054f5a5fe234acc6208849b8304b8a3f5bad7bd872d917d998c05a0ea5053fcf4b3ee5d15d",
+          "sha256": "73a9a4c761d3a5dd6c25f6a6cc18a6ae884bfaa97cf0d5acaf81000b2d09f64a",
+          "sha1": "65a2fc8bb7b7d10919b9cc82cd56e82a75fac427",
+          "md5": "061bb12f4e13408b5933684779920fda"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "glide-ext-0.7-sources.jar",
+          "url": "glide-ext-0.7-sources.jar",
+          "size": 1948,
+          "sha512": "fc51a52458f81ab2667ea59a879c44c20a45aa80a0c03743b7a1afb90b65e7e83f5158eb136d00bcefeace24cd6108fe31f5f0ff95f7440a6b4422e5ebb96197",
+          "sha256": "8966ed680ab24f0e40e2fc98dd5c784209e30bd7f47f98506f67e8b0e3c2ddbf",
+          "sha1": "d804fee473eff61b231b93ba5f8ea2e5165bc83f",
+          "md5": "0e3853b6f49862e521371d961d102110"
+        }
+      ]
+    }
+  ]
+}
